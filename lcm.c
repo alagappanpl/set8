@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
     int num1, num2, gcd, lcm, remainder, numerator, denominator;
 
@@ -46,8 +46,6 @@ int main()
     gcd = denominator;
 
     lcm = num1 * num2 / gcd;
-
-    printf("GCD of %d and %d = %d\n", num1, num2, gcd);
 
     printf("LCM of %d and %d = %d\n", num1, num2, lcm);
 
